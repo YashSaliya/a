@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   align-items: center;
+    font-weight: 900;
+
+}
+
+.container{
+    padding-left: 9rem;
+    padding-right: 9rem;
+}
+
+.loginBtn{
+    height: 3rem;
+    min-width: 6rem;
+    border-radius: 30px;
+    background: #D9E6FF;
+    font-size: 1rem;
+    border: none;
+    font-weight: bold;
+    padding: auto auto;
+}

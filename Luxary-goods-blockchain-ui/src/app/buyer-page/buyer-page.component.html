@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="search">
+<h1>Products</h1>
+  <input type="text" class="searchBox" placeholder="Search here...." [(ngModel)] = "search" (change)="searchFn()">
+  </div>
+  
+  <div class="productscard">
+    <div *ngFor = "let item of queriedProducts">
+      <app-product-card [item] = "item"></app-product-card>
+    </div>
+  </div>
+</div>

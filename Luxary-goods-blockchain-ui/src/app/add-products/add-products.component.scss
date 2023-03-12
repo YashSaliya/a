@@ -1,0 +1,43 @@
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #D9E6FF;
+    width: 60%;
+    margin: 2rem auto ;
+    padding: 1rem 0;
+    .input{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center ;
+        width:100%;
+        margin: auto;
+    }
+    *{
+        margin: 0.5rem 0;
+        border:none;
+    }
+    label{
+        font-size: 14px;
+    }
+    input,textarea{
+        resize: none;
+        width: 50%;
+        font-size: 14px;
+        border-radius: 30px;
+        padding: 1rem;
+    }
+
+}
+.saveProduct{
+    background-color: white;
+    filter: drop-shadow(9px 9px 12px rgba(0, 0, 0, 0.25));
+    width: 8rem;
+    height: 3rem;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size:1rem;
+}

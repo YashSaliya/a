@@ -1,0 +1,25 @@
+<div class="homePageImage">
+  <img src="../assets/images/login.svg" alt="" />
+</div>
+<div class="slogan">
+  Experience the ultimate luxury with the security and transparency of
+  blockchain supply.
+</div>
+<div class="btns" *ngIf="this.currentAccount != ''">
+  <button class="buyBtn"><a [routerLink]="['buy']">Buy</a></button>
+  <button class="sellBtn"><a [routerLink]="['sell']">Sell</a></button>
+</div>
+
+<svg
+  width="1440"
+  height="425"
+  viewBox="0 0 1440 425"
+  fill="none"
+  class="overlay-bottom"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M1672 193.139C863.085 -156.654 -31.7146 47.3917 -378 193.139V427H1672V193.139Z"
+    fill="#91B6FF"
+  />
+</svg>
